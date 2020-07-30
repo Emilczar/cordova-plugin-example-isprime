@@ -23,6 +23,7 @@ public class IsPrime extends CordovaPlugin {
     }
 
     private void coolMethod(String message, CallbackContext callbackContext) {
+      System.out.printf("Hello");
         if (message != null && message.length() > 0) {
             callbackContext.success(message);
         } else {
