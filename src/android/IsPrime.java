@@ -1,4 +1,4 @@
-package cordova-plugin-example-isprime;
+package cordova.plugin.example.isprime;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
